@@ -3,7 +3,7 @@
 ## 📖Apresentação
 <p align="justify">O controle de versão consiste basicamente em um sistema que permite registrar alterações feitas no desenvolvimento de um software.
 É a partir dele que toda a equipe envolvida no projeto tem acesso ao histórico das versões anteriores do software, podendo recuperar uma versão específica ou compreender quais mudanças foram feitas por outros colaboradores.
-Atualmente, principalmente nos projetos de desenvolvimento de software, a principal ferramenta de versionamento de software é o Git.
+Atualmente, nos projetos de desenvolvimento de software, a principal ferramenta de versionamento de software é o Git.
 Ele é usado inclusive como a base para serviços de gerenciamento de repositórios como Github.
 
 ## 🎯Objetivo
@@ -20,6 +20,7 @@ Cria a estrutura inicial do repositório Git no computador local
 ```css
 $ git init
 ```
+
 ### git status
 
 Verifica o status/condição da branch em que você está trabalhando, arquivos modificados, criados e exluídos
@@ -44,12 +45,12 @@ $ git add
 $ git commit -m "commit inicial"
 ```
 
-Dica: tente tornar suas mensagens curtas, mas significativas. 
+Dica: Tente tornar as mensagens curtas, mas significativas. 
 
 #### Exemplo
 
 ```css
-$ git commit -m "Página inicial e pastas de CSS e JS"
+$ git commit -m "Alteração do Arquivo Git.txt"
 ```
 
 ### git log
@@ -62,7 +63,7 @@ $ git log
 
 ### git reset --hard
 
-Redefine o índice e a árvore de trabalho. Quaisquer alterações nos arquivos rastreados na árvore de trabalho desde <commit> serão descartados.
+Redefine o índice e a árvore de trabalho. Quaisquer alterações nos arquivos rastreados na árvore de trabalho desde *commit* serão descartados.
 
 ```css
 $ git reset --hard
@@ -111,4 +112,5 @@ $ git checkout
 ```
 
 ## 💻Autora do Projeto
+
 🙋Tacimar Palheta
