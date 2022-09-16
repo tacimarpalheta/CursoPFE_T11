@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto Pedagógico do Curso de Front End - Sistemas de Controle de Versão (Git e GitHub) </h1>
+<h1 align="center"> Projeto de Aprendizado do Curso de Front End - Sistemas de Controle de Versão (Git e GitHub) </h1>
 
 ## 📖Apresentação
 <p align="justify">O controle de versão consiste basicamente em um sistema que permite registrar alterações feitas no desenvolvimento de um software.
@@ -123,4 +123,4 @@ $ git checkout
 
 ## 💻Autora do Projeto
 
-🙋Tacimar Palheta
+🙋[Tacimar Palheta](https://github.com/tacimarpalheta)
