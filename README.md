@@ -1,8 +1,9 @@
-# CursoPFE_T11
+## CursoPFE_T11
 
-Readme de exemplo
+README criado 
 
-lembrei do comando: git commit
-Lembrei do comando: git status
+Rodar o comando: *git status*
 
+Rodar o comando: *git commit -m*
 
+Rodar o comando: *git push origin login* 
