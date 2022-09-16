@@ -69,6 +69,16 @@ Redefine o índice e a árvore de trabalho. Quaisquer alterações nos arquivos 
 $ git reset --hard
 ```
 
+### git remote add origin "destino"
+
+Informa a pasta remota
+
+#### Exemplo
+
+```css
+$ git remote add origin main
+```
+
 ### git push
 
 <p align="justify">Depois de confirmar as alterações, envie as alterações de sua máquina local para o repositório remoto. No Terminal, use o comando `git push` seguido do nome da branch que você está enviando.
