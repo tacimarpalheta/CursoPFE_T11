@@ -7,6 +7,7 @@
     <title>Login - E-Players</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <div id="root">
@@ -23,7 +24,7 @@
          <div class="mensagem">   
             <p>Veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</p>  
         </div>      
-    <form>
+    <form name="formuser" action="">
         <div class="campo-label">
             <label id= "email" for="email">E-mail</label>
             <input type="email" name="email" id="campo-email" placeholder="Ex.: email@email.com" >
@@ -35,7 +36,7 @@
             <input type="password" name="password" id="campo-senha" placeholder="Sua senha aqui...">
         </div>
 
-        <button type="submit" class= "botao-inferior">
+        <button onclick="return validar()" type="submit"  class= "botao-inferior">
             <a href="Login" id="entrar">Fazer Login</a>
         </button>
     </form>

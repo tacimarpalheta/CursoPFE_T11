@@ -58,3 +58,20 @@ function mostrarMenu($event){
         event.preventDefault();
 }
 
+// Implementação de funcionalidades na página de Login aplicando JavaScript
+function validar (){
+   var email = formuser.email.value;
+   var password = formuser.password.value;
+
+   if(email == ""){
+    alert('Preencha o campo E-mail.');
+       formuser.email.focus();
+        return false;
+   }
+
+   if(password == "" || password.length <= 5){
+    alert('Preencha o campo Senha com mínimo 6 carcteres.');
+       formuser.password.focus();
+        return false;
+   }
+}
