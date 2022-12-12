@@ -70,7 +70,7 @@ function validar (){
    }
 
    if(password == "" || password.length <= 5){
-    alert('Preencha o campo Senha com mínimo 6 carcteres.');
+    alert('Preencha o campo Senha com mínimo 6 caracteres.');
        formuser.password.focus();
         return false;
    }
