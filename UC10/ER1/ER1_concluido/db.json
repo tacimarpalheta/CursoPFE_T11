@@ -25,17 +25,16 @@
       "descricao": "Testando o Json"
     },
     {
-        "id": 5,
-        "imagem": "assets/img/cardnews.jpg",
-        "titulo": "Teste",
-        "descricao": "Testando o Json"
+      "id": 5,
+      "imagem": "assets/img/cardnews.jpg",
+      "titulo": "Teste",
+      "descricao": "Testando o Json"
     },
     {
-        "id": 6,
-        "imagem": "assets/img/cardnews.jpg",
-        "titulo": "Teste",
-        "descricao": "Testando o Json"
+      "id": 6,
+      "imagem": "assets/img/cardnews.jpg",
+      "titulo": "Teste",
+      "descricao": "Testando o Json"
     }
-        
   ]
 }
